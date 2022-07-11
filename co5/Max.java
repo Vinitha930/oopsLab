@@ -13,7 +13,7 @@ public class Max extends Applet implements ActionListener
       t2=new TextField(25);
       t2.setBounds(100,50,80,20);
       t3=new TextField(25);
-      t1.setBounds(100,75,80,20);
+      t3.setBounds(100,75,80,20);
       t4=new TextField("result");
       t4.setBounds(100,160,80,20);
       b1=new Button("find");
@@ -53,3 +53,5 @@ public static void main(String args[])
    new Max();
  }
 }
+/*<applet code "Max.class" height=300 width=300>
+</applet>*/
